@@ -31,7 +31,7 @@ nav{
     padding: 0vw 3vw;
     mix-blend-mode: difference;
     z-index: 9999;
-    background-color: aquamarine;
+  
 }
 
 .lft-nav{
@@ -66,3 +66,53 @@ nav{
 .rght-nav:hover #nav-contact{
     margin-top: -3vh;
 }
+
+
+.part-1{
+
+    width:100%;
+    height:100vh;
+    background-color: #000;
+}
+
+
+.content-part-1{
+
+    width: 100%;
+    height: 100vh;
+    background-color: rebeccapurple;
+}
+
+
+.rotate-div{
+   display: flex;
+   align-items: start;
+   justify-content: center;
+    width: 200vw;
+    height: 200vh;
+    background-color: #000;
+    gap:3vw;
+  
+}
+
+
+.row-div{
+   background-color: aliceblue;
+    width: calc(200vw/5);
+    height: 100%;
+     display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.img-div{
+    width: 100%;
+    height: calc(100%/4);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.img-div img{
+    width: 100%;
+}
+
