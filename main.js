@@ -53,3 +53,13 @@ tl.to(".column-5", {
   duration: 1
 }, "-=1")
 
+tl.to(".overlay-div h1",{
+    opacity: "1",
+    delay: 0.2,
+},'a')
+tl.to(".overlay-div",{
+    backgroundColor: "#000000b4",
+},'a')
+tl.to(".scrolling",{
+    width: "100%",
+},'a')
