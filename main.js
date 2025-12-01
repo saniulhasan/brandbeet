@@ -77,3 +77,19 @@ tl2.to(".rounded-div-wrapper",{
     marginTop: 0
 })
 
+let tl3 = gsap.timeline({
+    scrollTrigger:{
+        trigger: ".content-2",
+        start:"20% 50%",
+        end: "100% 50%",
+        // markers: true,
+        scrub: 1,
+    },  
+});
+tl3.to(".content-2 .text-area-hover h1",{
+    width:"100%",
+})
+tl3.to(".content-2 .text-area-hover h2",{
+    delay: -0.4,
+    width:"100%",
+})
