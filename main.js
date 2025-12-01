@@ -63,3 +63,17 @@ tl.to(".overlay-div",{
 tl.to(".scrolling",{
     width: "100%",
 },'a')
+
+var tl2 = gsap.timeline({scrollTrigger:{
+    trigger: ".part-2",
+    start:"0% 70%",
+    end:"50% 50%",
+    scrub:true,
+    // markers:true,
+}})
+
+tl2.to(".rounded-div-wrapper",{
+    height:0,
+    marginTop: 0
+})
+
