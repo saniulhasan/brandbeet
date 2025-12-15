@@ -93,3 +93,50 @@ tl3.to(".content-2 .text-area-hover h2",{
     delay: -0.4,
     width:"100%",
 })
+
+let tl4 = gsap.timeline({
+    scrollTrigger:{
+        trigger: ".part-4",
+        start:"50% 50%",
+        end: "200% 50%",
+        pin: true,
+        // markers: true,
+        scrub: 1,
+    },  
+});
+tl4.to(".cir-part-4",{
+   
+    rotate: 360
+})
+
+tl4.to(".c-one",{
+    marginTop: "-25%",
+    opacity:"1",
+}, 'sct-1')
+tl4.to(".c-two",{
+    opacity:"1",
+}, 'sct-2')
+tl4.to(".c-one",{
+    marginTop: "-100",
+    opacity:"0",
+}, 'sct-2')
+tl4.to(".c-three",{
+    opacity:"1",
+}, 'sct-3')
+tl4.to(".c-two",{
+    opacity:"0",
+}, 'sct-3')
+tl4.to(".c-one",{
+    marginTop:"-180%",
+}, 'sct-3')
+tl4.to(".c-one",{
+    marginTop:"-230%",
+}, 'sct-4')
+tl4.to(".c-three",{
+    opacity:"0",
+}, 'sct-4')
+tl4.to(".cir-part-4",{
+    marginLeft:"100%",
+    rotate: 360
+}, 'sct-4')
+
